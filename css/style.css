@@ -1,5 +1,6 @@
 body {
     scroll-behavior: smooth;
+    font-family: 'Noto Sans SC', sans-serif;
 }
 
 .container {
@@ -44,4 +45,20 @@ body {
 
 .contact-us {
     background-image: url("/assets/backgrounds/c_image.jpg");
+}
+
+form {
+    padding-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+li a {
+    padding: 10px 10px;
+}
+#fin {
+    margin: 40px;
 }
