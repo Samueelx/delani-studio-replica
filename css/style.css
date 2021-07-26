@@ -2,7 +2,11 @@ body {
     scroll-behavior: smooth;
 }
 
-#containment {
+.container {
+    text-align: center;
+}
+
+.containment {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,4 +24,20 @@ body {
     justify-content: center;
     align-self: flex-end;
     padding-bottom: 20px;
+}
+
+#about-us {
+    text-align: center;
+}
+
+#services {
+    color: whitesmoke;
+    background-image: url("/assets/backgrounds/s_image.jpg");
+    height: 43vh;
+}
+
+.portfolio img {
+    height: 150px;
+    width: 150px;
+    margin: 15px;
 }
