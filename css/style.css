@@ -42,8 +42,8 @@ body {
 }
 
 .portfolio img {
-    height: 150px;
-    width: 150px;
+    height: 170px;
+    width: 220px;
     margin: 15px;
 }
 
@@ -69,4 +69,15 @@ li a {
 
 .hidden {
     display: none;
+}
+
+.card {
+    display: none;
+}
+
+button {
+    display: none;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
