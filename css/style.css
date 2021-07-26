@@ -41,3 +41,7 @@ body {
     width: 150px;
     margin: 15px;
 }
+
+.contact-us {
+    background-image: url("/assets/backgrounds/c_image.jpg");
+}
