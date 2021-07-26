@@ -37,6 +37,10 @@ body {
     height: 43vh;
 }
 
+.portfolio {
+    margin: 40px;
+}
+
 .portfolio img {
     height: 150px;
     width: 150px;
@@ -61,4 +65,8 @@ li a {
 }
 #fin {
     margin: 40px;
+}
+
+.hidden {
+    display: none;
 }
