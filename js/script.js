@@ -19,8 +19,15 @@ jQuery(document).ready( function() {
     $('.contact-us form').submit( function(e) {
         let name = $('input#name').val();
         let email = $('input#email').val();
-        alert(name + ' thank you for contacting us. We have received your input.');
+        alert(`${name}, thank you for contacting us.`);
 
         e.preventDefault();
     });
 });
+
+// function submitData(){
+//     let name = document.getElementById("name").value;
+//     let email = document.getElementById("email").value;
+
+//     document.getElementById("output").innerHTML = `${name} thank you for contacting us.`;
+// }
