@@ -27,17 +27,17 @@ jQuery(document).ready( function() {
     });
 
     $('.contact-us form').submit( function(e) {
-        let name = $('input#name').val();
-        let email = $('input#email').val();
-        alert(`${name}, thank you for contacting us.`);
-
+        function validation() {
+            if(($('input#name').val() == "") || ($('input#email').val() == "") ) {
+                alert('Please enter the appropriate details.');
+            }
+            else {
+                let name = $('input#name').val();
+                let email = $('input#email').val();
+                alert(`${name}, thank you for contacting us.`);
+            }
+        }
+        validation();
         e.preventDefault();
     });
 });
-
-// function submitData(){
-//     let name = document.getElementById("name").value;
-//     let email = document.getElementById("email").value;
-
-//     document.getElementById("output").innerHTML = `${name} thank you for contacting us.`;
-// }
